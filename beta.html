@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>repo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="beta.css">
+</head>
+
+<body>
+    <div id="everything">
+        <h1>report</h1>
+        <p id="firstp">Let's report on what we are up to</p>
+        <p id="options">
+            Reading Eating Playing Obsessing Recommending Treating </p>
+
+        <form action="/responses" id="reportForm">
+
+            <label class="letterLabel" for="letterLabel"></label>
+            <select class="letter" id="letter">
+
+                <option value="Name">Name</option>
+                <option value="R">Reading</option>
+                <option value="E">Eating</option>
+                <option value="P">Playing</option>
+                <option value="O">Obsessing</option>
+                <option value="R">Recommending</option>
+                <option value="T">Treating</option>
+            </select>
+            <div class="mb-3">
+                <label for="reportInput" class="letter-label"></label>
+                <textarea type="text" class="form-control" id="reportInput"></textarea>
+            </div>
+
+            <button id="reportBtn" type="submit" class="btn btn-info">report it</button>
+        </form>
+
+        <h2></h2>
+        <ul id="reportList">
+
+        </ul>
+
+    </div>
+
+
+
+
+
+
+    <script src="beta.js"></script>
+</body>
+
+</html>

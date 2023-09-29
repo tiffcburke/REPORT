@@ -1,0 +1,62 @@
+body {
+    margin: 50px;
+    background-color: #f07167;
+}
+
+#everything {
+    padding: 30px;
+    padding-bottom: 50px;
+    border: 10px solid #fdfcdc;
+    border-radius: 15%;
+    background-color: #fed9b7;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #0081a7;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #0081a7;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    color: #0081a7;
+    font-weight: bold;
+}
+
+
+
+form {
+    text-align: center;
+    color: #0081a7;
+    font-weight: bold;
+
+}
+
+ul {
+    list-style-type: none;
+    color: #f07167;
+
+}
+
+#letter {
+    color: #fdfcdc;
+    font-weight: bold;
+    background-color: #f07167;
+    text-align: center;
+    padding: 10px;
+
+    border: none;
+}
+
+#reportInput {
+    background-color: #fdfcdc;
+    color: #f07167;
+    font-weight: bold;
+}
